@@ -1,6 +1,6 @@
   // Grab the button elements
-document.querySelector(".get-joke").addEventListener("click", getAJoke)
-document.querySelector(".get-jokes").addEventListener("click", getJokes)
+document.getElementById("get-joke").addEventListener("click", getAJoke)
+document.getElementById("get-jokes").addEventListener("click", getJokes)
 
 // Create function
 function getAJoke(e) {

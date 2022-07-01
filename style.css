@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif; 
+}
+.container{
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto ;
+}
+.jokes-container ul{
+  max-width: 600px;
+}
+
+.joke-btn{
+  background: #ccc;
+  color: #222;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joke-btn:hover{
+  background: #222;
+  color: #ccc;
+}
+.jokes-btn{
+   background: #222;
+  color: #ccc;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.jokes-btn:hover,
+.jokes-btn:focus{
+   background: #ccc;
+  color: #222;
+}
+.question{
+  font-size: 2rem;
+  font-weight: 500;
+  color: blueviolet;
+}
+.container h4{
+  font-weight: 500;
+}
